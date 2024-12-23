@@ -63,7 +63,7 @@ public class Hello_Data {
 		gpa.offer(2.5);
 		gpa.offer(3.5);
 		gpa.forEach((n)->{System.out.println(n);});
-		//System.out.println(gpa);
+		System.out.println(gpa);
 		
 		int[] num = { 1,3 ,5, 6,8};
 		for(int i=0; i<=num.length;i++) {
