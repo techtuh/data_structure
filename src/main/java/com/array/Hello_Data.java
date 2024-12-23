@@ -1,7 +1,9 @@
 package com.array;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
@@ -50,7 +52,7 @@ public class Hello_Data {
 		 
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void priorityQ() {
 		
 		//Queue<Double> gpa = new LinkedList();//generalQ FIFO
@@ -79,4 +81,15 @@ public class Hello_Data {
 		}
 		
 	}
+
+	@Test
+	public void newMaps() {
+	 
+	 Map <Integer, String> map = new HashMap<>();
+	 map.put(1, "Computer");
+	 map.put(2, "Phone");
+	 map.put(3, "Fridge");
+	 map.replace(1, "Laptop");
+	System.out.println(map);
+ }
 }
